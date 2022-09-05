@@ -24,7 +24,7 @@ Examples
 
 General Pseudocode Convention used for low-level Primitive operations when talking about Algorithm Analysis
 - Data assignment: use = for assignment
-- Arthimetic and logical operations: == for equality, (=,-,*,/) use standard mathematical symbols
+- Arithmetic and logical operations: == for equality, (=,-,*,/) use standard mathematical symbols
 - Programming Constructs
     - Conditionals: if ... then ... [else if ... ] [else ...]
     - Loops
@@ -33,8 +33,8 @@ General Pseudocode Convention used for low-level Primitive operations when talki
         - for ... do ...
     - array indexing: A[i], A[i,j]
     - Methods
-        - Declaration: **Algorithm** methodname(arg1, arg2)
-        - calls: methodname(args)
+        - Declaration: **Algorithm** methodName(arg1, arg2)
+        - calls: methodName(args)
         - returns: return value
 
 Julia Code is very similar to Pseudocode
