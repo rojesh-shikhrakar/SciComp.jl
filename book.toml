@@ -1,0 +1,30 @@
+[book]
+authors = ["Rojesh Man Shikhrakar"]
+language = "en"
+src = "src"
+title = "SciComp.jl"
+
+[output.html]
+mathjax-support = true
+fold.enable = true
+fold.level = 0
+additional-js = ["./theme/mermaid.min.js", "./theme/mermaid-init.js", "./theme/utils.js"]
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
+
+[preprocessor]
+
+[preprocessor.jupyter]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[preprocessor.katex]
+after = ["links"]
