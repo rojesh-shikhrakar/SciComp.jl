@@ -21,10 +21,11 @@ heading-split-level = 2
 
 [preprocessor]
 
-[preprocessor.jupyter]
+# [preprocessor.jupyter]
+# optional=true
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
 
-[preprocessor.katex]
-after = ["links"]
+# [preprocessor.katex]
+# after = ["links"]
